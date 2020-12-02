@@ -1,0 +1,1731 @@
+.img{
+    
+    width: auto;
+    margin: 0;
+}
+
+.movile{
+    display: none;
+}
+
+aside#menu-cortina{
+    
+    width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    z-index: 999999;
+
+    background: #1A347E;
+
+}
+aside#menu-cortina a{
+     width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a i{
+    padding: 14px 0 0 0;
+    font-size: 1.6em;
+    
+    transition: all 0.3 ease-in;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #B50006;
+}
+aside#menu-cortina a:hover i{
+    transition: all 0.3 ease-in;
+    color: #B50006;
+}
+
+
+
+aside#menu-cortina a#abrir{
+    left: -51%;
+    top: 3%;
+    color: #1A347E;;
+    z-index: 10;
+    
+    background: white;
+
+}
+
+
+aside#menu-cortina a#cerrar{
+    
+    left: -30%;
+    color: #1A347E;;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    z-index: 9;
+    background: white;
+}
+
+
+aside#menu-cortina nav#menu-moviles{
+    width: 80%;
+    height: auto;
+margin: 0 10% 0 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a{
+    
+    width: 100%;
+    height: 34px;
+    margin: 21% auto;
+    position: relative;
+    float: none;
+    display: block;
+    font-family: Raleway;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 35px;
+    text-decoration: none;
+}
+aside#menu-cortina nav#menu-moviles a:hover{
+    
+    transition: all 0.3 ease-in;
+    color: white;
+    font-weight: 900;
+}
+
+
+/*acabamencor*/
+
+
+
+body {
+   margin:0;
+   padding:0;
+}
+header{
+    
+    width: 80%;
+    height: 1006px;
+    position: fixed;
+    display: block;
+    float: none;
+    z-index: 9999;
+left: 100px;
+top: -807px;
+
+background: white;
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+border-radius: 64px;
+    
+}
+
+header div#caja-logo{
+    width: 248px;
+    height: 143px;
+    position: absolute;
+    display: block;
+    float: none;
+    bottom: 30px;
+    left: 34px;
+    margin: 0;
+}
+
+header div#caja-logo a{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    float: none;
+        margin: 0;
+}
+
+header div#caja-logo a img{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    float: none;
+}
+
+
+header nav{
+    
+    width: 55%;
+    height: 23px;
+    position: absolute;
+    display: block;
+    float: none;
+    bottom: 89px;
+right: 72px;
+
+}
+header nav a{
+
+    position: relative;
+    float: left;
+    display: block;
+    padding: 0 2% 0 0;
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #233877;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*
+
+AQUI CABA NAV BAR
+*/
+
+
+
+
+
+
+main{
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: -2% 0 0 0;
+
+    background: url(img/banner.png) no-repeat ;
+
+  background-position: right top;
+}
+
+main section#banner{
+    
+    width: 100%;
+    height: 1088px;
+
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+main section#servicios{
+    
+    width: 100%;
+    height: 1428px;
+    display: block;
+    position: relative;
+        margin: 0;
+    
+
+
+}
+
+main section#servicios article#to{
+    width: 100%;
+    height: 58%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+    
+}main section#servicios article#to figure#serv{
+    width: 30%;
+    height: 149px;
+    display: block;
+    position: relative;
+    float: none;
+margin: 0 auto 6% auto;
+}
+
+main section#servicios article#to figure#serv img{
+
+    width: 100%;
+}
+
+main section#servicios article#to figure#video{
+    
+    width: 50%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+main section#servicios article#to figure#video figcaption{
+
+    position: relative;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #233877;
+}
+main section#servicios article#to figure#video img{
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+
+
+main section#servicios article#to article#caja-info{
+    
+    width: 39%;
+    height: 33%;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 5% 0 0;
+
+}
+
+main section#servicios article#to article#caja-info h3{
+    
+width: 298px;
+height: 52px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 12% 0 0 0;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #233877;
+}
+main section#servicios article#to article#caja-info p{
+    
+    width: auto;
+height: 407px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 6% 0 0 0;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #6586BD;
+}
+
+
+
+main section#servicios article#servts{
+    
+    width: 100%;
+    height: 550px;
+    display: block;
+    position: relative;
+    float: none;
+
+    
+
+}
+
+main section#servicios article#servts div{
+    
+    
+    width: 19%;
+    height: 306px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 11% 7%;
+    
+
+
+}
+main section#servicios article#servts div#pock1{
+    
+    width: 19%;
+    height: 306px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 16% 7%;
+    
+
+
+}
+main section#servicios article#servts div#pock2{
+    
+    width: 19%;
+    height: 306px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 14% 7%;
+    
+
+
+}
+
+main section#servicios article#servts div figure{
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+
+}
+
+main section#servicios article#servts div h4{
+    
+
+    display: block;
+    position: relative;
+    float: none;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #233877;
+    
+    margin: 0;
+
+}
+main section#servicios article#servts div p{
+    
+
+    display: block;
+    position: relative;
+    float: none;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #6586BD;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+main section#mascota{
+    
+    width: 100%;
+    height: 1164px; 
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+    
+    background: #1A347E;
+}
+
+main section#mascota article{
+    
+    width: 90%;
+    height: 972px; 
+    display: block;
+    position: relative;
+    float: none;
+    margin: auto;
+    
+
+}
+
+main section#mascota article figure#tit{
+    
+    width: 33%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto 1%;
+    text-align: center;
+    
+
+}
+main section#mascota article figure#tit img{
+    
+width: 100%;
+
+}
+
+main section#mascota article figure#wow{
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+
+    
+
+}
+
+main section#mascota article figure#wow img{
+    
+width: 100%;
+
+
+    
+
+}
+
+
+
+
+
+
+
+main section#voluntariado{
+    
+    width: 100%;
+    height: 1057px;
+    position: relative;
+    display: block;
+    float: none;
+    margin: -2% 0 0 0;
+    
+    background: url(img/adopta.png) no-repeat;
+    
+    
+}
+
+main section#voluntariado article#container{
+    
+    width: 90%;
+    height: 80%;
+    position: relative;
+    display: block;
+    float: none;
+    margin: auto;
+    padding: 6% 0 0 0;
+
+    
+    
+}
+
+main section#voluntariado article#container figure{
+ 
+    width: 51%;
+    height: auto;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 0 auto 5%;
+    
+    
+}
+main section#voluntariado article#container figure img{
+ 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 0;
+    
+    
+}
+
+
+
+
+main section#voluntariado article#info{
+    
+    width: 625px;
+    height: 682px;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+
+    background: #FFFFFF;
+    border-radius: 64px;
+   
+}
+
+main section#voluntariado article#info div#informacion-voluntariado{
+    
+    width: 395px;
+    height: 52px;
+    position: relative;
+    display: block;
+    float: none;
+
+    margin: 6% auto 1%;
+
+}
+
+main section#voluntariado article#info div#informacion-voluntariado h2{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+text-align: justify;
+margin: 0;
+color: #1A347E;
+}
+
+main section#voluntariado article#info div#caja-info{
+width: 80%;
+    height: 73%;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 0 auto 12%;
+
+}
+
+main section#voluntariado article#info div#caja-info form{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: left;
+
+    color: #6586BD;
+}
+
+
+input[type=text] {
+    width: 62%;
+
+    padding: 2% 20px;
+    margin: 0 5% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=age] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 50% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=age]:focus {
+  border: 3px solid #555;
+}
+
+input[type=tel] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 42% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=tel]:focus {
+  border: 3px solid #555;
+}
+
+input[type=civil] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 36% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=civil]:focus {
+  border: 3px solid #555;
+}
+
+
+input[type=city] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=city]:focus {
+  border: 3px solid #555;
+}
+
+
+
+
+input[type=dir] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=dir]:focus {
+  border: 3px solid #555;
+}
+
+
+input[type=ig] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 22px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=dir]:focus {
+  border: 3px solid #555;
+}
+
+.r{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+
+margin: 20px 0 0;
+    color: #6586BD;
+    text-align: center;
+}
+
+
+
+
+input[type=n] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 22px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=n]:focus {
+  border: 3px solid #555;
+}
+
+
+
+
+input[type=t] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 22px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=t]:focus {
+  border: 3px solid #555;
+}
+
+
+
+
+
+
+input[type=p] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 22px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=p]:focus {
+  border: 3px solid #555;
+}
+
+
+
+input[type=o] {
+width: 35%;
+    padding: 2% 20px;
+    margin: 0 38% 0 22px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+input[type=o]:focus {
+  border: 3px solid #555;
+}
+
+
+
+.informacion-aplica{
+    
+    width: 106px;
+    height: 32px;
+    position: relative;
+    float: none;
+    margin: 7% auto 0;
+    display: block;
+    
+    
+}
+.informacion-aplica a{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: none;
+    margin: 0;
+    display: block;
+}
+.informacion-aplica a button{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: none;
+    margin: 0;
+    display: block;
+    
+    background: #1A347E;
+    border-radius: 64px;
+    
+    border: none;
+    
+    text-decoration: none;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.informacion-aplica a button:hover {
+    
+    background: #FFFFFF;
+    color: #1A347E;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    
+        -webkit-box-shadow: 0px 0px 4px #1A347E;
+       -moz-box-shadow: 0px 0px 4px #1A347E;
+            box-shadow: 0px 0px 4px #1A347E;
+}
+
+
+/*
+
+FIN DE FORMULARIO
+*/
+
+
+main section#voluntariado article#informacion-preguntas-frecuentes{
+    
+    
+    width: 44%;
+    height: 666px;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 0 0 3%;
+
+    
+    
+}
+
+main section#voluntariado article#informacion-preguntas-frecuentes h3{
+    
+    
+
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 0 3%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+main section#voluntariado article#informacion-preguntas-frecuentes p{
+    
+    
+
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 0 2.5%;
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: left;
+
+color: #FFFFFF;
+}
+
+
+
+
+main section#noticia{
+    
+    width: 100%;
+    height: 1216px;
+    position: relative;
+    display: block;
+    float: none;
+    margin: 0% 0 0 0;
+    
+    background: url(img/noticias.png) no-repeat;
+    
+}
+
+
+main section#noticia article#conteiner {
+    
+    
+    width: 90%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+
+
+
+}
+
+main section#noticia article#conteiner figure#caja-titulo-4 {
+    
+    
+width: 30%;
+    height: 133px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto 0;
+    padding: 5% 0 0 0;
+
+
+
+}
+main section#noticia article#conteiner figure#caja-titulo-4 img{
+    
+    
+width: 100%;
+    
+
+
+
+}
+
+main section#noticia article#noticias {
+    
+    
+    width: 100%;
+    height: 71%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto 0;
+
+
+
+
+}
+
+main section#noticia article#noticias div{
+    
+    
+    width: 20%;
+    height: 633px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 19% 0 0 0;
+
+
+
+
+}
+main section#noticia article#noticias div#var{
+    
+    
+    width: 20%;
+    height: 746px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 6% 3% 0;
+
+
+
+
+}
+
+main section#noticia article#noticias div#ver{
+    
+    
+    width: 20%;
+    height: 746px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 6% 0 0 3%;
+
+
+
+
+}
+
+main section#noticia article#noticias div figure{
+    
+    width: 100%;
+    height: 335px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 0 0 0 ;
+    text-align: center;
+
+
+
+
+}
+main section#noticia article#noticias div figure img{
+    
+    width: 100%;
+}
+
+main section#noticia article#noticias div#var figure{
+    
+    width: 100%;
+    height: 335px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 0 15% 0 ;
+    text-align: center;
+
+
+}
+main section#noticia article#noticias div#var figure img{
+    
+    width: 100%;
+}
+main section#noticia article#noticias div#ver figure{
+    
+    width: 100%;
+    height: 335px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 0 15% 0 ;
+    text-align: center;
+
+
+}
+main section#noticia article#noticias div#ver figure img{
+    
+    width: 100%;
+}
+main section#noticia article#noticias div h4{
+    
+
+display: block;
+    position: relative;
+    float: none;
+    margin: 4% 0 8% 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1A347E;
+
+}
+
+main section#noticia article#noticias div p{
+    
+
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 ;
+    text-align: center;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #1A347E;
+
+}
+
+
+main section#noticia div#plus{
+    width: 188px;
+    height: 32px;
+    float: none;
+    margin: 0 auto;
+    position: relative;
+        display: block;
+
+}
+
+
+main section#noticia div#plus a{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+text-decoration: none;
+    color: #1A347E;
+}
+main section#noticia div#plus a:hover{
+
+
+    color: #fff;
+    text-shadow:  0px 0px 4px #1A347E;
+}
+
+
+
+
+
+
+
+
+
+
+main section#contacto{
+    
+    width: 100%;
+    height: 1633px;
+    position: relative;
+    float: none;
+    display: block;
+    margin: 10% 0 0 0;
+    background: url(img/contacto.png) no-repeat;
+}
+
+
+main section#contacto article#general1{
+    width: 90%;
+    height: 682px;
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    
+
+    
+    
+}
+main section#contacto article#general1 h2{
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 180px;
+    text-align: left;
+    color: #1A347E;
+    
+    
+}
+
+main section#contacto article#general1 div#caja-info-5{
+    width: 100%;
+    height: 514px;
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    
+
+    
+    
+}
+
+main section#contacto article#general1 div#caja-info-5 div{
+    width: 30%;
+    height: 100%;
+    
+    position: relative;
+    float: left;
+    display: block;
+    margin: 0;
+    
+
+    
+    
+}
+
+main section#contacto article#general1 div#caja-info-5 div h6{
+
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 11% 0 11%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+
+    color: #1A347E;
+    
+    
+}
+main section#contacto article#general1 div#caja-info-5 div p{
+
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+
+    color: #1A347E;
+
+}
+
+main section#contacto article#general1 div#caja-info-5 div#caj2{
+
+    
+    width: 64%;
+    height: 100%;
+    
+    position: relative;
+    float: left;
+    display: block;
+    margin: 0 0 0 4.9%;
+    
+
+
+}
+
+main section#contacto article#general1 div#caja-info-5 div#caj2 figure#mapa{
+
+    
+    width: 100%;
+    height: 492px;
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0;
+
+}
+main section#contacto article#general1 div#caja-info-5 div#caj2 figure#mapa img{
+
+    
+    width: 100%;
+}
+
+main section#contacto article#general1 div#caja-info-5 div#caj2 figcaption{
+ 
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1A347E;
+
+}
+
+
+
+
+
+
+
+
+main section#contacto article#general2{
+    width: 90%;
+    height: 609px;
+    
+    position: relative;
+    float: none;
+    display: block;
+    margin: 5% auto 0 auto;
+    
+
+    
+    
+}
+
+
+
+
+main section#contacto article#general2 div{
+    
+    width: 16%;
+    height: 35%;
+    position: relative;
+    float: left;
+    display: block;
+    margin: 0 68.9% 4.9% 0;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 64px;
+    
+    
+}
+
+
+
+main section#contacto article#general2 div.end{
+    
+        margin: 0 0 2.9% 0;
+    
+}
+
+
+main section#contacto article#general2 div figure{
+
+
+    position: relative;
+    float: none;
+    display: block;
+    margin: 30% 0 0 0;
+    
+
+    text-align: center;
+
+
+    
+    
+}
+main section#contacto article#general2 div figure figcaption{
+
+
+    position: relative;
+    float: none;
+    display: block;
+    margin: 6% 0 0 0;
+    
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #1A347E;
+    
+    
+}
+
+@media (max-width: 1357px){
+    
+  
+    
+    main section#noticia article#noticias div#ver figure {
+    margin: 0;
+    }
+    main section#noticia article#noticias div figure {
+
+    height: 289px;
+    }
+    
+    main section#noticia article#noticias div#var figure {
+    margin: 0;
+    }
+    
+    header nav {
+    width: 61%;
+    }
+    
+    main section#voluntariado article#informacion-preguntas-frecuentes p {
+
+    font-size: 1.3em;
+}
+    
+    main section#servicios article#to article#caja-info p {
+    font-size: 1.3em;
+}
+    
+    main section#contacto article#general1 div#caja-info-5 div p {
+
+    font-size: 1.3em;
+    }
+}
+
+
+@media (max-width: 1310px){
+
+main section#voluntariado article#informacion-preguntas-frecuentes {
+    width: 33%;
+    
+}
+}
+    
+
+@media (max-width: 1223px){
+        
+    header nav {
+    width: 65%;
+    padding: 0 1% 0 0;
+}
+    
+    header div#caja-logo {
+    width: 18%;
+    }
+
+
+main section#servicios article#to article#caja-info p {
+    font-size: 1em;
+    margin: 0% 0 0 0;
+}
+main section#servicios article#to article#caja-info h3 {
+
+    font-size: 1.5em;
+
+}
+main section#voluntariado article#informacion-preguntas-frecuentes p {
+    font-size: 1em;
+}
+
+main section#voluntariado article#informacion-preguntas-frecuentes h3 {
+    font-size: 1.5em;
+}
+
+    main section#noticia article#noticias div figure {
+    height: 265px;
+}
+
+    main section#noticia article#noticias div#var figure {
+
+    height: 288px;
+    }
+main section#noticia article#noticias div#ver figure {
+    height: 272px;
+    
+    }
+
+main section#contacto article#general1 div#caja-info-5 div p {
+    font-size: 1em;
+}
+
+main section#contacto article#general1 div#caja-info-5 div#caj2 figure#mapa {
+    width: 100%;
+    height: 396px;
+}
+}
+@media (max-width: 1148px){
+    
+    header nav a {
+    padding: 0 2% 0 0;
+    }
+}
+
+@media (max-width: 1085px){
+    
+    main section#voluntariado {
+
+    height: 1450px;
+    background: url(img/adopta.png);
+}
+    
+    main section#voluntariado article#container {
+
+    height: 100%;
+    }
+        
+    main section#voluntariado article#info {
+    float: none;
+    margin: 0 auto;
+    }
+    
+    
+main section#voluntariado article#informacion-preguntas-frecuentes {
+    left: auto;
+    width: 80%;
+    float: none;
+    margin: 10% 0 0 auto;
+    }
+    
+.informacion-aplica {
+    margin: 0 auto 0;
+    }
+    
+main section#voluntariado article#informacion-preguntas-frecuentes h3 {
+
+    float: none;
+    margin: 0;
+}
+    
+main section#voluntariado article#informacion-preguntas-frecuentes p {
+
+    float: none;
+    margin: 0 0 0;
+    }
+}
+@media (max-width: 1024px){
+    
+      .img{
+    
+    width: 100%;
+    }
+    
+    main section#mascota article figure#tit {
+    width: 50%;
+    }
+    main section#contacto article#general1 div#caja-info-5 div#caj2 figure#mapa {
+    height: 351px;
+}
+    header {
+    width: 100%;
+    height: 944px;
+    left: 0;
+    }
+    
+    aside#menu-cortina{
+    
+    display: block;
+        
+    }
+    
+    header nav {
+        
+    display: none;
+}
+    
+    header div#caja-logo {
+    bottom: 4px;
+    left: 51px;
+}
+    
+    main section#servicios article#to figure#video {
+    float: none;
+    margin: 0 auto;
+}
+    main section#servicios article#to article#caja-info {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+    main section#servicios article#to article#caja-info p {
+    height: 54%;
+    }
+    
+    main section#servicios article#servts div#pock1 {
+    float: none;
+    margin: 0 auto 2%;
+    
+    }
+    
+    main section#servicios {
+    height: 2041px;
+    }
+    
+    
+    
+    main section#servicios article#to {
+    height: 46%;
+    }
+    
+    main section#servicios article#servts div {
+    float: none;
+    margin: 0 auto 10%;
+    }
+    
+    main section#servicios article#servts div#pock2 {
+    float: none;
+    margin: 6% auto 0;
+}
+    
+    main section#servicios article#servts {
+
+    height: auto;
+    }
+    
+    main section#servicios article#servts div figure {
+    margin: 0;
+        
+    }
+    main section#mascota article figure#wow img{
+        
+        display: none;
+    }
+    
+    .movile{
+    display: block;
+}
+    
+    main section#mascota {
+    height: 3065px;
+        background: #1A347E
+}
+    
+main section#contacto article#general1 h2 {
+    font-size: 5em;
+    }
+    
+main section#contacto article#general1 div#caja-info-5 div {
+    width: 100%;
+    height: 330px;
+    }
+    
+    main section#contacto article#general1 div#caja-info-5 div h6 {
+    
+    margin: 11% 0 2%;
+    }
+main section#contacto article#general1 div#caja-info-5 div p {
+    height: 37%;
+}
+    
+    main section#contacto article#general2 div {
+    margin: 0 15.9% 4.9% 0;
+        
+    }
+    
+    main section#noticia article#noticias div {
+        width: 40%;
+    float: none;
+    margin: 0 auto;
+}   
+    main section#noticia {
+    height: 2900px;
+    }
+    
+    main section#noticia article#noticias div figure {
+    height: 400px;
+        
+}
+    
+    main section#noticia article#noticias div#var {
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+    }
+    
+    main section#noticia article#noticias div#var figure {
+    height: 443px;
+}
+    main section#noticia article#noticias div#ver {
+
+    width: 40%;
+    float: none;
+    margin: 13% auto 0;
+    }
+    
+    main section#noticia article#noticias div#ver figure {
+    height: 435px;
+}
+    
+    main section#noticia div#plus {
+    display: none;
+}
+}
+
